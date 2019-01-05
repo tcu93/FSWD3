@@ -11,11 +11,11 @@ Create a reporting tool that prints out reports (in plain text) based on the dat
 
 **Step 3:** Download the database dump file from [this link](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
 
-**Step 4:** Extract and copy the `newsdata.sql` file to the `vagrant/` directory that was created in Step 2.
+**Step 4:** Extract and copy the `newsdata.sql` file to the `/vagrant` directory that was created in Step 2.
 
 **Step 5:** Clone `analyze_log.py` and `analyze_logdb.py` from this [github repo](https://github.com/tcu93/FSWD3) into the `/vagrant` directory.
 
-**Step 6:** Open a terminal and navigate to the same `vagrant` directory mentioned in previous steps and type the following:
+**Step 6:** Open a terminal and navigate to the same `/vagrant` directory mentioned in previous steps and type the following:
 
 ```
 # Install & Configure VM
@@ -44,4 +44,4 @@ vagrant destroy
 
 ```
 ## Screenshot of Output
-![Alt text](https://github.com/tcu93/FSWD3/Capture.png "Screenshot Sample")
+![Capture.PNG](https://github.com/tcu93/FSWD3/blob/master/Capture.PNG)
